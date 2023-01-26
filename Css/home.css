@@ -1,0 +1,29 @@
+@media (prefers-color-scheme: light) {
+  body {
+    background-color: white;
+    color: black;
+	}
+}
+@media (prefers-color-scheme: dark) {
+  body {
+    background-color: black;
+    color: white;
+	}
+}
+
+p {
+  padding: 20px;
+  text-align: center;
+}
+
+.dark-mode {
+    background-color: black;
+    color: white;
+}
+
+.dark {
+  border: none;
+  color: white;
+  text-align: left;
+  padding: 16px 32px;
+}
