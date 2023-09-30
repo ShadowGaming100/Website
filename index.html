@@ -1,13 +1,56 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-    <meta charset="UTF-8">
-    <title>Coming Soon</title>
-    <meta name="description" content="">
-    <meta name="keywords" content="...">
-    <meta name="author" content="...">
-    <link rel="icon" href="favicon.ico" type="image/x-icon">
+    <title>Information</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="styles.css">
+
+<style>
+  
+        h1 {
+            text-align: center;
+        }
+
+        p {
+            font-family: 'Times New Roman', serif;
+            text-align: center;
+            font-size: 16px; /* Default font size */
+        }
+
+        img {
+            max-width: 100%; /* Ensure the image doesn't exceed its container */
+            height: auto;
+        }
+
+        /* Media query for larger screens */
+        @media (min-width: auto) {
+            p {
+                font-size: auto; /* Increase font size for larger screens */
+            }
+            img {
+                width: 100%; /* Make the image width 100% of its container for larger screens */
+            }
+        }
+        .container {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .content {
+            flex: 1;
+            padding: 20px;
+        }
+    </style>
 </head>
+<body>
+  <h1>What is Yash Dj Film and Studio?</h1>
+    <div style="display: flex; justify-content: space-between;">
+        <div style="flex: 1; padding: 20px;">
+            
+            <p><b>It is a film producing company with innovative ideas and the team is filled with young inspiring people.</b></p>
+        </div>
+        <div style="flex: 1; padding: 20px;">
+            <img src="logo.png" alt="Image" style="max-width: 100%; height: auto;">
+        </div>
+    </div>
+</body>
 </html>
