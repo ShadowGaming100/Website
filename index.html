@@ -1,78 +1,13 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
-    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
-    <link rel="icon" type="image/svg+xml" href="/icon.svg" />
-    <meta name="theme-color" id="theme-color" content="" />
-    <meta name="description" content="Yash Dj Film and Studio" />
-    <title>Welcome</title>
-    <style>
-        .noscript-message {
-            font-size: 20px;
-            text-align: center;
-            padding: 10px;
-            max-width: 500px;
-            margin: 0 auto;
-        }
-        body {
-            background-color: #f2f2f2;
-            font-family: Arial, sans-serif;
-            margin: 0;
-            padding: 0;
-        }
-        
-        .container {
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-            justify-content: center;
-            height: 100vh;
-            text-align: center;
-        }
-        
-        .title {
-            font-size: 36px;
-            font-weight: bold;
-            margin-bottom: 20px;
-        }
-        
-        .countdown {
-            font-size: 24px;
-            color: #333;
-        }
-    </style>
+    <meta charset="UTF-8">
+    <title>Coming Soon</title>
+    <meta name="description" content="">
+    <meta name="keywords" content="...">
+    <meta name="author" content="...">
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
 </head>
-<body>
-<noscript>
-<div class="noscript-message">
-    Sorry, you don't seem to have JavaScript enabled or your browser
-    doesn't support it.<br />This website requires JavaScript to function.
-    Please enable JavaScript in your browser settings to continue.
-</div>
-</noscript>
-    <div class="container">
-        <h1 class="title">Welcome to our Website!</h1>
-        <p class="countdown" id="countdown"></p>
-    </div>
-
-    <script>
-        // JavaScript code for the countdown
-        function countdown() {
-            var now = new Date();
-            var targetDate = new Date('September 25, 2023 00:00:00');
-            var timeRemaining = targetDate - now;
-            
-            var days = Math.floor(timeRemaining / (1000 * 60 * 60 * 24));
-            var hours = Math.floor((timeRemaining % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
-            var minutes = Math.floor((timeRemaining % (1000 * 60 * 60)) / (1000 * 60));
-            var seconds = Math.floor((timeRemaining % (1000 * 60)) / 1000);
-            
-            document.getElementById('countdown').innerHTML = 'Countdown: ' + days + ' days, ' + hours + ' hours, ' + minutes + ' minutes, ' + seconds + ' seconds';
-        }
-        
-        setInterval(countdown, 1000);
-    </script>
-</body>
 </html>
